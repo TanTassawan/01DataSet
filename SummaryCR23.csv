@@ -1,0 +1,203 @@
+﻿Tracker,Number,Start Date,Time,Related to,Detail,Priority,End Date,Status
+Change Request,01-5024,1-Jan-2023,,,แจ้งดำเนินการแก้ไขข้อมูล user agent (Back Office Web),LOW,4-Jan-2023,Completed
+Change Request,02-5304,1-Feb-2023,,,แจ้งดำเนินการแก้ไข Wallet status ของลูกค้า 2 ราย เป็น Close,LOW,5-Jan-2023,Completed
+Change Request,03-5043,1-Mar-2023,,,แจ้งดำเนินการแก้ไข Wallet status ของลูกค้า 1 ราย เป็น Close,LOW,5-Jan-2023,Completed
+Change Request,04-4997,21-Dec-2022,,,แจ้งขอแก้ไขระบบเป็นการเร่งด่วนเพื่อแก้ปัญหา notification ไม่ redirect ไปยัง TMDS [Target Date : 21/12/2022],LOW,21-Dec-2022,Completed
+Change Request,05-5023,5-Jan-2023,,,แจ้งสร้าง Dummy Wallet และ Wallet ID เพื่อใช้งานกับตลาดบุญเรือง,LOW,6-Jan-2023,Completed
+Customer Inquiry,5056,5-Jan-2023,,,แจ้งตรวจสอบรายการ Online Bill Payment รายการสำเร็จ แต่ไม่หักเงิน wallet,LOW,6-Jan-2023,Completed
+Change Request,06-5035,6-Jan-2023,,,แจ้งขอแก้ไขรายละเอียดข้อกำหนดและเงื่อนไขการใช้บริการสำหรับร้านค้ารับชำระผ่าน MicroPay,LOW,6-Jan-2023,Completed
+Change Request,07-5095,19-Jan-2023,,Deploy,ขึ้นระบบ Wallet status (ส่งเอกสารแล้ว),LOW,19-Jan-2023,Completed
+DeployDR,,26-Jan-2023,,DeployDR,DeployDR ขึ้นระบบ Wallet status,LOW,26-Jan-2023,Completed
+Change Request,08-6090,,,,แจ้งดำเนินการแก้ไข Wallet status ของลูกค้า 1 ราย เป็น Close,LOW,18-Jan-2023,Completed
+Customer Inquiry,5155,25-Jan-2023,,,"แจ้งตรวจสอบ status wallet เนื่องจากยังไม่ผ่าน KYC แต่มี Status Suspend
+TMDS ตรวจพบ wallet ลูกค้า 1 รายที่ status ผิดปกติ โดยมีรายละเอียดตามภาพด้านล่างค่ะ 
+ซึ่งดูจาก Previous Status เป็น Pending แสดงว่าลูกค้ายังไม่ผ่าน KYC แต่ทำไม status 
+ปัจจุบันเป็น Suspend ซึ่งตาม flow ปกติ จะไม่สามารถเป็น status นี้ได้
+ดังนั้นจึงรบกวนดำเนินการตรวจสอบให้ด้วยค่ะว่าเกิดจากสาเหตุใด",LOW,30-Jan-2023,Completed
+Change Request,1187283,1-Feb-2023,,,แจ้งลบ Merchant Profile/Merchant ID [Target Date : 01/02/2023],LOW,1-Feb-2023,Completed
+Change Request,1187678,1-Feb-2023,,,แจ้งปิดหน้ากดรับ Consent [Target Date : 01/02/2023],LOW,1-Feb-2023,Completed
+Change Request,1191727,2-Jan-2023,,,แจ้งเปลี่ยนแบนเนอร์หน้าเติมมือถือ [Target Date : 01/02/2023],LOW,2-Jan-2023,Completed
+Change Request,1200523,7-Feb-2023,,Deploy,ดำเนินการขอขึ้นระบบเพื่อแก้ปัญหา Status Wallet เนื่องจากยังไม่ผ่าน KYC แต่มี Status Suspend แทนที่จะเป็น Pin lock และแก้ปัญหา User ที่เคยปิด Wallet ไปแล้วสามารถทำ KYC ผ่านตอนกลับมาเปิด Wallet ใหม่ + DEploy DR,LOW,7-Feb-2023,Completed
+Customer Inquiry,5198,6-Feb-2023,,,แจ้งตรวจสอบ Error Wallet status Fraud & Merchant status Inactive,LOW,13-Feb-2023,Completed
+Customer Inquiry,5249,14-Feb-2023,,,"Customer Complaint #5249 แจ้งตรวจสอบ wallet ไม่สามารถทำการ kyc ได้
+ลูกค้า Wallwt id : 105011795032987 ไม่สามารถทำการ kycได้ 
+สถานะก่อนทำ kyc Reject รบกวนตรวจสอบให้ด้วยครับ",LOW,14-Feb-2023,Completed
+Change Request,13-5226,14-Feb-2023,,,แจ้ง Reject Wallet 105011749425261,LOW,14-Feb-2023,Completed
+Change Request,14-5231,14-Feb-2023,,,แจ้งขอ Mapping ข้อมูล T&C,LOW,14-Feb-2023,Completed
+Change Request,15-5232,15-Feb-2023,,,ขอเปลี่ยนเวลาปิด Revolving Loan เป็นเวลา 20.55,LOW,15-Feb-2023,Completed
+Change Request,16-5282,28-Feb-2023,,Deploy,ดำเนินการขอขึ้นระบบเพื่อ แก้ไข Limit Amount ของฟีเจอร์ Request to Pay สำหรับตลาดนัด และผลการทดสอบ UAT,LOW,28-Feb-2023,Completed
+Change Request,17-5283,28-Feb-2023,,,ดำเนินการแก้ไข Promptpay Service ให้ทำการตรวจสถานะเพิ่มเติมสำหรับสถานะที่ทำรายการ FUND IN ไม่ได้ และให้ทำการตรวจสอบ flag isSuspend เพิ่มเติมในขา validate_status_user_merchant และผลการทดสอบ UAT,LOW,28-Feb-2023,Completed
+Customer Inquiry,5212,10-Feb-2023,,,Customer Complaint #5212 แจ้งตรวจสอบการเปลี่ยนสถานะ Suspend เนื่องจากพบว่าเวลาในการทำรายการผิดปกติ,LOW,27-Feb-2023,Completed
+Customer Inquiry,5293,22-Feb-2023,,,"Customer Complaint #5293 แจ้งตรวจสอบไม่สามารถเช็คยอดเงินสินเชื่อ ในแอปไมโครเพย์ได้
+ยอดวงเงินที่สามารถเบิกใช้ได้ ไม่แสดงในโทรศัพท์ Samsung Galaxy S20+
+
+รบกวนตรวจสอบการแสดงข้อมูลลูกค้าท่านนี้ครับ เนื่องจากลูกค้าแจ้งว่าไม่สามารถเช็คยอดเงินสินเชื่อในแอปไมโครเพย์ได้ครับ พบว่าไม่แสดงยอดเงินดังกล่าว
+ลูกค้าแจ้งว่ามีการปรับขนาดตัวอักษรในโทรศัพท์ของลูกค้าแล้ว อัพเดทเวอร์ชั่นแอปแล้ว ยังไม่แสดงข้อมูล (รายละเอียดตามแนบ)
+Wallet Id : 105011032878119 ณภัทรกัญ พานธาราเกษม",LOW,22-Feb-2023,Completed
+Customer Inquiry,5309,24-Feb-2023,,,[TMDS - Ticket 262122] แจ้งตรวจสอบสถานะ Wallet ลูกค้าคุณ สวาย พริกทอง,LOW,22-Mar-2023,Completed
+Customer Inquiry,5303,23-Feb-2023,,,"Customer Complaint #5303 แจ้งตรวจสอบลูกค้าไม่ได้รับ Notification Micropay
+ทาง TMDS ได้รับแจ้งจากลูกค้าว่าไม่ได้รับ Notification Micropay 
+- ข้อมูลลูกค้า 105011999369268 อรรครพล วชิรพิมพ์ทอง (และได้แนบวิดีโอจากลูกค้ามาให้ด้วย)",LOW,23-Feb-2023,Completed
+Customer Inquiry,5292,27-Feb-2023,,,ไม่สามารถ Inquiry Merchant Transaction ได้จากหน้าเว็บ,LOW,23-Mar-2023,Completed
+Customer Inquiry,5251,7-Apr-2023,,,"แจ้งตรวจสอบหน้าจอสินเชื่อไม่แสดงรายการ ข้อมูลสินเชื่อ Wallet 105011894371161
+ลูกค้าเข้าเมนูสินเชื่อ ธ.ไทยเครดิต และแจ้งปัญหาวันที่ 10/02/2023 เวลา 12.08 ค่ะ ซึ่งวันดังกล่าวนี้ลูกค้าไม่ได้ทำรายการเนื่องจากหน้าจอเป็นสีขาว จึงทำรายการไม่ได้ค่ะ",LOW,7-Apr-2023,Closed
+Support,,7-Mar-2023,,,พบรายการ TimeOut ดำเนินการตรวจสอบ,LOW,7-Mar-2023,Completed
+Support,,11-Mar-2023,,,Support ITMX ปิดระบบ,LOW,11-Mar-2023,Completed
+Support,,19-Mar-2023,01:30 – 06:30,,Patch VA ครั้งที่ 1 (19 มีนาคม 2566 ตั้งแต่เวลา 01:30 น. – 06:30 น),LOW,19-Mar-2023,Completed
+Change Request,18-5388,20-Mar-2023,,,"ดำเนินการลบข้อมูล User สำหรับ Micropay Agent 
+เนื่องจากพนักงานที่เป็น Agent Kyc มีการลาออก",LOW,20-Mar-2023,Completed
+Change Request,19-5283,23-Mar-2023,,,หนังสือเลขที่ 20230223001 [PCC-REQ:0145/2023] แจ้งขอเปลี่ยนข้อกำหนดเงื่อนไขการให้บริการ ไมโครเพย์ อี-วอลเล็ท [Target Date: 23/03/2023],LOW,23-Mar-2023,Completed
+Change Request,20-5388,7-Apr-2023,,,"ดำเนินการลบข้อมูล User สำหรับ Micropay Agent 
+เนื่องจากพนักงานที่เป็น Agent Kyc มีการลาออก",LOW,7-Apr-2023,Completed
+Support,,4-Apr-2023,2:00,Report,ReportBillpaymentPEA,LOW,4-Apr-2023,Completed
+Support,,15-Apr-2023,2:00,Report,"reportBillPaymentMEA 
+ตาลแก้ไข Report, พี่ธัชตรวจสอบสาเหตุ",LOW,15-Apr-2023,Completed
+Change Request,21-5505,20-Apr-2023,,,ปัญหา : Wallet ลูกค้าสถานะ Reject แต่เว็บขึ้นสถานะ Previous เป็น APPROVED สืบเนื่องจากมีการปรับปรุงโปรแกรมไปเมื่อวันที่ 19/01/2023,LOW,20-Apr-2023,Completed
+Change Request,22-5547,26-Apr-2023,,,แจ้งสร้าง Dummy Wallet และ Wallet ID เพื่อใช้งานกับตลาดธันยา,LOW,26-Apr-2023,Completed
+Change Request,23-5505,11-May-2023,,,PathVA 2 (11 พ.ค. 2566 ตั้งแต่เวลา 01:30 น. – 03:30 น),LOW,11-May-2023,Completed
+Change Request,23-5610,11-May-2023,,,"ดำเนินการลบข้อมูล User Web agent สำหรับพนักงานลาออก บนระบบ Production
+เนื่องจากมีการลาออกของพนักงาน CA จึงขอให้ทำการลบข้อมูล User Webagent ออก (46 รายชื่อ)",LOW,11-May-2023,Completed
+Change Request,24-5660,22-May-2023,,,"ขึ้นระบบ เนินการแก้ไขการออก Report binding history, loan notification เนื่องจากปัญหา Redmine_5398",LOW,22-May-2023,Completed
+Change Request,25-5652,22-May-2023,,,ดำเนินการแก้ไขข้อมูล user agent (Back Office Web ) บนระบบ Production,LOW,22-May-2023,Completed
+Change Request,26-5664,26-May-2023,,,แจ้งสร้าง Dummy Wallet และ Wallet ID เพื่อใช้งานกับตลาดสันติสุข,LOW,26-May-2023,Completed
+Change Request,27-5670,26-May-2023,,,แจ้งสร้าง Dummy Wallet และ Wallet ID เพื่อใช้งานกับตลาดนัดทุ่งลม,LOW,26-May-2023,Completed
+Change Request,28-5721,6-Jun-2023,,Deploy,Deploy Report consumer tran,LOW,6-Jun-2023,Completed
+Change Request,29-5736,8-Jun-2023,,,ดำเนินการลบข้อมูล User Web agent สำหรับพนักงานลาออก บนระบบ Production,LOW,8-Jun-2023,Completed
+Change Request,30-5736,8-Jun-2023,,,แจ้งสร้าง Dummy Wallet และ Wallet ID เพื่อใช้งานกับตลาดนัด,LOW,8-Jun-2023,Completed
+Change Request,31-5852,26-Jun-2023,,,ดำเนินการลบข้อมูล User Web agent สำหรับพนักงานมี 2 User,LOW,26-Jun-2023,Completed
+Change Request,32-5888,29-Jun-2023,,,"แจ้งขอข้อมูล Log การเรียก API เพื่อทำการ Approve ร้านค้าบนระบบ Production
+ปัญหาการ Approve ร้านค้าแล้วลูกค้าไม่สามารถรับสแกนจากต่างธนาคารได้
+จึงขอข้อมูล Log การเรียก API เพื่อทำการ Approve ร้านค้าตามที่ TMDS แจ้งเพื่อตรวจสอบและแก้ไขปัญหา",LOW,29-Jun-2023,Completed
+Support,,29-Jun-2023,1:00,,ตรวจสอบรายการ TimeOut เป็นปัญหาเดียวกันกับวันที่ 30 เมษายน 66 เลย,LOW,29-Jun-2023,Completed
+Change Request,33-5941,3-Jul-2023,23:00,,ดำเนินการลบข้อมูล RTP สำหรับเรียกเก็บค่าแผงบน Production,LOW,3-Jul-2023,Completed
+Customer Inquiry,5700,25-May-2023,,,แจ้งตรวจสอบข้อมูล Wallet ลูกค้า 3 ราย,LOW,25-May-2023,Completed
+Customer Inquiry,5398,22-May-2023,,,แจ้งตรวจสอบ Report Binding History วันที่ 02/03/2023 เนื่องจากไม่มีข้อมูลการ purge มาในไฟล์ (แนบรูปเพื่อเป็นข้อมูลในการตรวจสอบครับ),LOW,22-May-2023,Completed
+Customer Inquiry,5608,8-May-2023,,,"แจ้งตรวจสอบ file loan notification column ใน report ไม่ถูกต้อง
+รบกวนตรวจสอบ file loan notification column ใน report ไม่ตรง สังเกตุจากตรง status",LOW,8-May-2023,Completed
+Customer Inquiry,5644,15-May-2023,,,"แจ้งตรวจสอบรายการ QR Dynamic
+
+ทาง Partner ได้แจ้งว่าลูกค้าทำรายการ QR Dynamic จ่ายเงินสำเร็จแต่ไม่ได้รับสินค้า 
+ทาง TMDS ตรวจสอบรายการนี้แล้ว ว่าได้รับรายการจาก ITMX แล้ว แต่ทาง Partner ไม่ได้รับ Callback
+รบกวนทาง PCC ตรวจสอบว่าได้มีการส่ง Callback กลับไปหรือไม่ 
+MID 200012109012201 
+รายการตามเอกสารแนบ",LOW,15-May-2023,Completed
+Customer Inquiry,5607,8-May-2023,,,"แจ้งตรวจสอบเปลี่ยนเครื่องใช้งานแต่ไม่มีการเช็คเรื่อง lock device
+
+การเปลี่ยนเครื่อง i-Phone แต่ไม่ lock device ตามรายละเอียดของ wallet นี้ครับ
+Wallet id : 105011207568487
+Tel No. : 0816397801
+เปลี่ยนเครื่องใหม่เข้า App วันที่ 6 พค 2566
+เครื่องเก่า : iPhoneX 
+เครื่องใหม่ : iPhone14",LOW,10-May-2023,Completed
+Customer Inquiry,5415,17-Mar-2023,,,แจ้งตรวจสอบสถานะลูค้าขึ้น REJECT,LOW,27-Mar-2023,Completed
+Customer Inquiry,5428,21-Mar-2023,,,"แจ้งตรวจสอบลูกค้าไม่มียอดชำระคงค้าง แต่ใน App Micropay ขึ้นยอดชำระ
+ปัญหา RV สาขาขุนทะเล(สุราษฎร์ธานี ) ขอให้ตรวจสอบลูกค้านายปัญญา สวนส้ม เนื่องจากในแอฟไมโครเพย์ ขึ้นยอดชำระ 117.96 แต่ภาระหนี้สิ้นทั้งสิ้น 0.99- (ตามเอกสารแนบ) 
+เนื่องจากตรวจสอบทาง 02-6975454 ไม่มียอดต้องชำระ ตรวจทาง AS 400 ไม่มียอดชำระ แต่ในแอฟไมโครเพย์ ยังขึ้นยอดให้ชำระ 117.96",LOW,21-Mar-2023,Completed
+Customer Inquiry,5033,10-Jan-2023,,,Customer Complaint #5033 แจ้งตรวจสอบยอดเบิกสินเชื่อไม่แสดงในหน้า RV Micropay,LOW,16-Feb-2023,Completed
+Customer Inquiry,4965,31-Jan-2023,,,"รบกวนตรวจสอบบัญชีลูกค้า คุณ อัมรินทร์ สีหมุ่น Wallet ID: 105011116191926 เนื่องจากมีการใช้ อุปกรณ์โทรศัพท์ มือถือคนละเครื่อง แต่ ระบบ TCRB Agent 
+มีการแสดงข้อมูลว่าเป็นเครื่องเดียวกัน กับ คุณ ปทุมวรรณ สีหมุ่น Wallet ID: 105011283908334 ลูกค้าทั้ง 2 ท่านเป็นพี่น้องกัน 
+และทำให้ลูกค้าต้องติดต่อเข้ามาหา Call center เพื่อต้องการให้ Revoke Device เป็นประจำ รายละเอียดตามด้านล่าง",LOW,31-Jan-2023,Closed
+Customer Inquiry,4954,31-Jan-2023,,,"TMDS ตรวจพบรายการ Online Bill Payment ของวันที่ 2/12/2022 รายการสำเร็จ แต่ไม่ตัดเงินลูกค้า 
+จึงทำให้ลูกค้าสามารถทำรายการชำระเงินซ้ำไปอีก 2 ครั้ง และทั้ง 2 ครั้งนั้นก็เป็นรายการสำเร็จ เป็นผลทำให้ลูกค้าได้รับการตัดชำระเงินเกินไป 2 ครั้ง เป็นจำนวนเงิน 2,000 บาท 
+โดยมีรายละเอียดตามภาพด้านล่าง จากปัญหาดังกล่าวรบกวนทาง PCC ดำเนินการตรวจสอบ และแก้ไขโดยด่วนค่ะ",LOW,31-Jan-2023,Closed
+Customer Inquiry,5155,25-Jan-2023,,,"แจ้งตรวจสอบ status wallet เนื่องจากยังไม่ผ่าน KYC แต่มี Status Suspend
+TMDS ตรวจพบ wallet ลูกค้า 1 รายที่ status ผิดปกติ โดยมีรายละเอียดตามภาพด้านล่างค่ะ 
+ซึ่งดูจาก Previous Status เป็น Pending แสดงว่าลูกค้ายังไม่ผ่าน KYC แต่ทำไม status 
+ปัจจุบันเป็น Suspend ซึ่งตาม flow ปกติ จะไม่สามารถเป็น status นี้ได้
+ดังนั้นจึงรบกวนดำเนินการตรวจสอบให้ด้วยค่ะว่าเกิดจากสาเหตุใด",LOW,25-Jan-2023,Completed
+Customer Inquiry,5104,16-Jan-2023,,,Customer Complaint #5104 แจ้งตรวจสอบลูกค้าสมัครร้านค้าครั้งแรกเว็บฟอร์มค้างที่หน้า T&C และมี Consent ให้กดซ้ำ,LOW,16-Jan-2023,Completed
+Customer Inquiry,4492,6-Jan-2023,,,Customer Complaint #4492 แจ้งตรวจสอบพบรายการ Online Bill Payment วันที่ 24/08/2022 รายการสำเร็จ แต่ไม่หักเงิน,LOW,6-Jan-2023,Completed
+Customer Inquiry,4288,6-Jan-2023,,,Customer Complaint #4288 แจ้งตรวจสอบยอด SETTLE_PROMPTPAY วันที่ 03/07/2022 มียอดเกิน 800,LOW,6-Jan-2023,Completed
+Customer Inquiry,5908,28-Jun-2023,,,[TMDS] ได้รับแจ้งจาก ITMX ตรวจสอบพบรายการ timeout จำนวนมาก 17:50 - 19:06 น.,HIGH,3-Jul-2023,Closed
+Customer Inquiry,5910,29-Jun-2023,,,[TMDS] ตรวจสอบพบรายการ TMDS E-wallet ทำรายการไม่สำเร็จ Resp Code 8 (Issuer Timeout) เวลา 01:10,HIGH,3-Jul-2023,Closed
+Customer Inquiry,5000,22-Dec-2022,,,"แจ้งตรวจสอบระบบกรอกข้อมูลเนื่องจากให้กรอกที่อยู่ซ้ำ
+ทางทีมงาน CA ได้ทำการ KYC ลูกค้า แต่ทางระบบให้กรอกข้อมูลที่อยู่ใหม่อีกครั้ง รบกวนตรวจหาสาเหตุว่าทำไมถึงต้องกรอกที่อยู่ใหม่ และได้แนบไฟล์รูปที่ทาง CA แจ้งมาให้ด้วยค่ะ",LOW,22-Dec-2022,Closed
+Customer Inquiry,5205,6-Feb-2023,,,"Customer Complaint #5205 แจ้งตรวจสอบข้อมูลการ Purge data
+เนื่องจากทาง TCRB ตรวจสอบพบข้อมูลการ Binding RV ของ Wallet ไม่ตรงกัน รบกวนตรวจสอบข้อมูลการ Binding 
+และการ Purge มีปัญหาตรงไหนบ้างครับว่าทำไมข้อมูลถึงไม่ตรงกับทางธนาคาร โดยแนบไฟล์ Purge มาให้ด้วย 
+ต้องการข้อมูลเพิ่มแจ้งได้เลยนะครับ",LOW,6-Feb-2023,Open
+Support,5233,9-Feb-2023,,,"ข้อมูลจาก file backup ชื่อ DP_USER_TERM_CON สามารถแปลงออกมาเป็น report Term_Con_Transaction_Merchant & Term_Con_Transaction_Consumerได้ยังไง 
+แต่ล่ะ groupame คืออะไรใน from_name ข้อมูล Term and Con ของ merchant สามารถใช้ข้อมูลใน DP_USER_TERM_CON ได้เลยไม่หรือเก็บอีกที่นึงประมาณนี้ค่ะ",LOW,9-Feb-2023,Open
+Customer Inquiry,5489,5-Jun-2023,,,"แจ้งตรวจสอบ UUID ไม่สามารถใช้งาน Micropay ได้ เนื่องจาก UUID ซ้ำกับลูกค้ารายอื่น
+
+ทาง TMDS ได้รับแจ้งจาก ลูกค้าว่าไม่สามารถใช้งาน Micropay ได้ เนื่องจากระบบแจ้งว่าติด Limit Device จากการตรวจสอบ ลูกค้ามี UUID 
+ซ้ำกับลูกค้ารายอื่น รบกวนตรวจสอบให้ด้วยครับ ทาง TMDS ได้แนบข้อมูลเบื้องต้นเพื่อตรวจสอบ ตามไฟล์แนบ
+
+เนื่องจากว่าตัวระบบขึ้นว่ามีการเข้าใช้งานด้วยโทรศัพท์มือถือเครื่องเดียวกัน รายละเอียดตามไฟล์แนบ
+105011116191926 อัมรินทร์ สีหมุ่น Other 0945140317 iPhone 11
+105011283908334 ปทุมวรรณ สีหมุ่น Other 0872665617 iPhone 
+รอขึ้นระบบวันที่ 31 Aug 2023
+
+",LOW,5-Jun-2023,Hold On
+Customer Inquiry,5696,25-May-2023,,,แจ้งตรวจสอบรายการ Online Bill Payment รายการสำเร็จ 3 ครั้ง แต่ตัดเงิน 1 ครั้ง ของวันที่ 24/05/2023,LOW,30-May-2023,Hold On
+Customer Inquiry,5698,25-May-2023,,,"แจ้งตรวจสอบ incident export consumer report ช้า
+
+เนื่องจากทางทีม Operation ไม่สามารถทำการ export consumer report ได้ 
+หรือมีอาการส่งเมล์ report ช้าผิดปกติ รบกวนแก้ไขให้ด้วยครับตามที่ประชุมวันที่ 24/05/2023",LOW,25-May-2023,Ongoing
+Customer Inquiry,5728,,,,แจ้งตรวจสอบ Wallet daily วันที่ 30/05/2023 ข้อมูลไม่แสดงในระบบ,LOW,,Open
+Customer Inquiry,5800,19-Jun-2023,,,Incident แจ้งตรวจสอบ Customer Wallet ไม่มีรหัสไปรษณีย์บนระบบ,LOW,19-Jun-2023,Hold On
+Customer Inquiry,5821,16-Jun-2023,,,แจ้งตรวจสอบรายการโอนเงิน Micropay ไม่เข้า Promptpay ต่างธนาคาร แต่หักเงินใน wallet และสลิปไม่สมบูรณ์,LOW,16-Jun-2023,Hold On
+Customer Inquiry,5822,16-Jun-2023,,,แจ้งตรวจสอบรายการโอนเงิน Micropay ไปพร้อมเพย์ต่างธนาคารเงินไม่เข้าปลายทาง วันที่ 15/6/2023,LOW,16-Jun-2023,Hold On
+Customer Inquiry,5849,20-Jun-2023,,,"ด่วน !!! Incident : แจ้งตรวจสอบพบ transaction ผิดปกติ วันที่ 19/06/2023
+เนื่องจากทาง TMDS ตรวจพบ Transaction ผิดปกติ จำนวน 2 รายการ 
+รบกวนทาง PCC ดำเนินการตรวจสอบ และแจ้งผลกลับโดยด่วนค่ะ เนื่องจากรายการดังกล่าวทำให้ยอดชำระดุล
+ในรายงานธุรกรรมไม่ถูกต้อง รวมถึงยอดเงินที่บันทึกลง collateral ก็ไม่ถูกต้องไปด้วยค่ะ ",MED,20-Jun-2023,Ongoing
+Customer Inquiry,5856,22-Jun-2023,,,แจ้งตรวจสอบรายการ Online Bill Payment รายการสำเร็จ 2 ครั้งตัดเงิน 1 ครั้งวันที่ 14 และ 19 /06/2023,LOW,22-Jun-2023,Open
+Customer Inquiry,5857,,,,"Incident : แจ้งตรวจสอบปัญหารายการ Prompt Pay Out Tag29 diff. กับฝั่ง TCRB
+ปัจจุบันทาง TMDS พบปัญหารายการ Prompt Pay Out Tag29 diff กับฝั่ง TCRB อยู่บ่อยครั้ง 
+โดยทาง TMDS เป็นรายการสำเร็จ แต่ TCRB เป็นรายการไม่สำเร็จ ซึ่งเป็นผลให้ทาง TMDS จะต้องมาค้นหารายการ
+และทำรายการปรับปรุงเงินคืนให้ลูกค้าเกือบทุกวัน โดยปัญหาเริ่มมีตั้งแต่วันที่ 31/05/2023 เป็นต้นมาค่ะ",LOW,,Ongoing
+ไม่มี CR,,5-Jul-2023,,,พี่ปอให้ดู OTP ผ่าน Line (รายละเอียดกลุ่ม Dev Room),LOW,5-Jul-2023,Completed
+Change Request,34-5858,6-Jul-2023,00:20 - 02.30,Deploy,ดำเนินการพัฒนาระบบ Fraud prevention process for BOT และเพิ่ม Column ใน Consumer Transaction Report และแก้ไข Issue บนระบบ Production,LOW,6-Jul-2023,Completed
+DeployDR,,13-Jul-2023,,DeployDR,ดำเนินการขึ้นระบบ DR สำหรับ Fraud prevention process for BOT Phase 1,LOW,13-Jul-2023,Completed
+Change Request,35-5947,7-Jul-2023,,,แจ้งลบข้อมูลลูกค้าไมโครเพย์ที่ไม่เข้าเงื่อนไขอายุ บนระบบ Production,LOW,7-Jul-2023,Completed
+Problem Record,5935,10-Jul-2023,PCC_Network,,ตรวจสอบพบรายการ TMDS E-wallet ทำรายการไม่สำเร็จ Resp Code 8 (Issuer Timeout) เมื่อวันที่ 29/06/2023 เวลา 01:02 - 01:11 น.,HIGH,,Hold On
+Problem Record,6101,27-Jul-2023,PCC_Network,,ตรวจสอบปัญหาพบ Report SETTLE PROMPTPAY TAG30 OUT ON US มีสถานะ Pending เมื่อวันที่ 27/07/2023 เวลา 01:45 - 02:02 น.,LOW,,Hold On
+Problem Record,6106,26-Jul-2023,PCC_Network,,"ได้รับแจ้งจาก ITMX ตรวจสอบพบรายการ Timeout จำนวนมาก 
+เมื่อวันที่ 26/07/2023 เวลา 12:08 - 12:23 น.",LOW,,Hold On
+Support,5990,10-Jul-2023,,,[TMDS] แจ้งขอข้อมูลเพื่อทำการตรวจสอบรายการ RTP,LOW,7-Jul-2023,Completed
+Customer Inquiry,5991,10-Jul-2023,,,"แจ้งตรวจสอบส่งข้อมูลแล้ว response 0500
+รบกวนตรวจสอบเรื่อง update merchant profile เพิ่มเติมครับ ส่งข้อมูลแล้ว response 0500 ครับ 
+request_id : b5f34d9a-0b5c-4bbd-9250-aef18aa0a341",LOW,10-Jul-2023,Completed
+Customer Inquiry,5973,7-Jul-2023,,,"[TMDS] แจ้งตรวจสอบปัญหาการใช้งาน ระบบ web agent ของ TMDS
+ทาง Call center ของ TMDS มีปัญหาการใช้งาน web agent https://tmds-ewallet.thaimicropay.com/
+ไม่ได้ ในช่วงระยะเวลาหนึ่ง ซึ่งเกิด เป็นเวลาเดียวกันติดต่อกัน 3 วัน
+รบกวนช่วยตรวจสอบด้วยครับ ว่าเกิดจาก การ load หรือ มีการทำงานอะไรในช่วงเวลาดังกล่าวครับ (รายละเอียดตามภาพแนบ)",LOW,7-Jul-2023,Closed
+Change Request,36-5996,11-Jul-2023,,,แจ้งขอข้อมูล Log การเรียก API เพื่อตรวจสอบรายการ [ด่วน ! ขอก่อน 13.00],LOW,11-Jul-2023,Completed
+Customer Inquiry,5998,11-Jul-2023,,,"Incident: แจ้งตรวจสอบการเปลี่ยน status wallet แล้วขึ้นหน้าจอ error (ช่วงบ่าย เฉพาะส่วนของ Maker)
+
+TMDS พบปัญหาที่หน้า Back office web เมื่อทำการเปลี่ยน status wallet 
+ถึงขั้นตอนกด confirm แล้ว ระบบประมวลผลนาน และขึ้น pop up error ตามภาพค่ะและเมื่อกด OK ระบบ log out ไป
+และให้ log in เข้าระบบใหม่ทุกครั้งค่ะ รบกวนดำเนินการตรวจสอบและแก้ไขให้ด้วยค่ะ",LOW,11-Jul-2023,Ongoing
+,,10-Jul-2023,,,เรื่อง defect ที่อัพเดท merge code BOT#1 กับ noti version ใหม่,LOW,12-Jul-2023,Completed
+Support,6016,13-Jul-2023,,,ด่วน!!! แจ้งขอข้อมูล Log การเรียก API KYC [ ขอก่อน 17.00 น.],LOW,13-Jul-2023,Completed
+Customer Inquiry,6025,14-Jul-2023,,,Incident: แจ้งตรวจสอบรายการเติมเงิน DTAC สำเร็จ แต่ไม่หักเงิน 10 รายการ วันที่ 13/07/2023,LOW,14-Jul-2023,Closed
+Customer Inquiry,6018,20-Jul-2023,,,แจ้งลบ User สถานะ NEW เเละ PENDING KYC ทุกเดือน ลบข้อมูลไม่เกินได้สูงสุด 2 เดือน [Target Date : 20/07/2023],LOW,20-Jul-2023,Completed
+Change Request,37-6051,21-Jul-2023,,,Dummy wallet ตลาดปฐมนคร,LOW,21-Jul-2023,Completed
+Support,,26-Jul-2023,,,Report Binding History as of 25/07/2023 ไม่มีข้อมูลในไฟล์ (เมื่อวาน),LOW,26-Jul-2023,Ongoing
+Support,,26-Jul-2023,2:00,Report,"Report 4 ตัว + sftpLoanReport
+reportBindingNotification
+reportControlFile
+reportBindingHistory
+reportTransactionUnsuccess",LOW,26-Jul-2023,Completed
+Support,,27-Jul-2023,2:00,Report,"SETTLE_PROMPTPAY_TAG30_OUT_ON_US
+settlePromptpayTag30OnUs",LOW,27-Jul-2023,Completed
+Support,,28-Jul-2023,2:00 - 4:30,Report,Report 28 ตัว,,28-Jul-2023,Completed
+Change Request,38-6098,3-Aug-2023,,,Dummy wallet ตลาดศรีตรัง,LOW,3-Aug-2023,Completed
+Change Request,39-6111,8-Aug-2023,19:00,,แจ้งเพิ่ม index เพื่อแก้ไขการปรับสถานะ Status Wallet ที่หน้าเว็บ บนระบบ Production,LOW,8-Aug-2023,Ongoing
+Change Request,40-6151,10-Aug-2023,,,แจ้งลบ User WebAgent เนื่องจากมีพนักงานลาออก,LOW,10-Aug-2023,Completed
+Change Request,41-6131,11-Aug-2023,11-12/08/2023,,แจ้งขอเปลี่ยนเวลาปิด/เปิด ฟังก์ชั่นสินเชื่อธนาคารไทยเครดิต,LOW,12-Aug-2023,Completed
+Customer Inquiry,6096,2-Aug-2023,,,ด่วน!! แจ้งตรวจสอบ File Binding History as of 25/07/2023 เนื่องจากไม่พบข้อมูลในไฟล์,LOW,,
+Support,,4-Aug-2023,,,จัดทำ BatchScript (Support PCC),,9-Aug-2023,Ongoing
+Customer Inquiry,6154,4-Aug-2023,,,"ด่วน!!! แจ้งตรวจสอบTransaction ""SETTLE"" ของรายการ PAYMENT cut off ข้ามวัน ตั้งแต่วันที่ 26/7/2023",LOW,,Ongoing
+Customer Inquiry,6196,10-Aug-2023,,,TCRB แจ้งตรวจสอบรายการโอนเงินเข้า E-wallet ว่าทำรายการสำเร็จหรือไม่ รายการวันที่ 10/08/2023,LOW,10-Aug-2023,Completed
+Support,,17-Aug-2023,01:30 - 01:45,,Support Fine Tune database performance,LOW,17-Aug-2023,Completed
+Change Request,,31-Aug-2023,00:20 - 02.30,Deploy,BOT Phase #2,LOW,31-Aug-2023,Hold On
+DeployDR,,7-Sep-2023,,DeployDR,BOT Phase #2,,7-Sep-2023,Hold On
+Support,,17-Sep-2023,01:30 - 06:30,,PCC DC Site Support การปิดบริการชั่วคราว ตามแผน Schedule Downtiome ของบริษัท,LOW,17-Sep-2023,Hold On
+Support,6250,18-Sep-2023,,,แจ้งขอ log การตอบกลับจาก INFOMAX ขา API Confirm ของวันที่ 28/06/2023,LOW,18-Sep-2023,Completed
+Support,,20-Aug-2023,1:50,Report,SETTLE_PROMPTPAY_TAG30 : Pending,,20-Aug-2023,Completed
+Support,,22-Aug-2023,1:50,Report,"REPORT_WALLET_CONSUMER (ReportConsumer)
+REPORT_MERCHANT_PROFILE
+SETTLE_REQUEST_TO_PAY : มีรายการแล้ว",,22-Aug-2023,Completed
+Support,6270,22-Aug-2023,,,แจ้งตรวจสอบ Report Wallet daily 20230821 และ Merchant Profile daily 20230821 ไม่มีข้อมูล,,22-Aug-2023,Completed
